@@ -41,3 +41,15 @@ If I were to revise one part of the work, I would expand more on edge cases and 
 User needs drove nearly every design decision. The focus was always on clarity and efficiency, especially for common actions like booking lessons or resetting a password. A system can be technically correct and still fail if it frustrates users, so keeping the design straightforward and predictable was a priority throughout the project.
 
 My approach to designing software is methodical: understand the problem, define requirements clearly, then model the system before thinking about implementation. Breaking the system into diagrams and workflows made gaps easier to spot early and reduced guesswork later. This is the same approach I plan to carry forward—clear requirements, visual validation, and designs that make sense before a single line of code is written.
+
+---
+
+## CS 320 – Software Testing & Automation Reflection
+
+This course strengthened my understanding that software quality is not accidental; it is engineered through deliberate verification and disciplined validation. In Project One, I developed unit tests using JUnit 5 to ensure that the Contact and ContactService classes adhered strictly to defined requirements. Each constraint—such as length limitations, null protection, and date validation—was treated as a non-negotiable rule. Rather than testing only expected inputs, I focused heavily on invalid paths and boundary conditions to confirm that improper data was rejected predictably and securely. Achieving strong code coverage was not simply about meeting a metric threshold; it was about ensuring that each logical branch was exercised and that defensive safeguards behaved as intended.
+
+Interpreting user needs required translating abstract requirements into enforceable program rules. Clear specifications became concrete validation logic, and each requirement was mapped to at least one corresponding test case. This traceability ensured that functionality aligned with stakeholder expectations while reducing ambiguity during implementation. Through this process, I came to view testing not as a final checkpoint, but as an analytical framework that informs design decisions from the outset.
+
+My design approach has become increasingly methodical and risk-aware. I begin by analyzing constraints, identifying potential failure points, and structuring classes with separation of concerns in mind. Writing tests alongside implementation sharpened my attention to edge cases and reinforced the importance of maintainable, modular code. The discipline of structured testing, automated execution, and iterative refinement has reshaped how I evaluate software quality—prioritizing reliability, clarity, and long-term sustainability over superficial correctness.
+
+---
