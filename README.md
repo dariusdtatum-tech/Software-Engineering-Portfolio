@@ -1,33 +1,32 @@
-# Software-Engineering-Portfolio
+# Software Engineering Portfolio
 
-Welcome to my software engineering portfolio. This repository showcases selected work that demonstrates my abilities in application development, system design, analysis, and technical problem-solving. The projects here reflect my focus on building reliable, maintainable, and user-centered software solutions.
+This repository presents selected engineering artifacts demonstrating applied software development, system design, structured analysis, and quality assurance practices. The work reflects a disciplined approach to building reliable, maintainable, and user-centered systems.
 
-## What You'll Find Here
-This portfolio includes:
+## Portfolio Scope
+
+The portfolio includes:
 
 - **System Design Artifacts**  
-  Diagrams, technical specifications, and architecture documents that outline how complex systems are structured and implemented.
+  Architecture diagrams, technical specifications, and modeling documents illustrating structured system decomposition and implementation strategy.
 
 - **Application Development Work**  
-  Code samples, prototypes, and small applications highlighting my approach to clean code, modular design, and practical implementation.
+  Source code, prototypes, and modular implementations emphasizing clarity, maintainability, and defensive programming principles.
 
-- **Problem-Solving & Analysis**  
-  Coursework and independent exercises emphasizing logical thinking, requirements analysis, and solution evaluation.
+- **Problem-Solving and Analytical Work**  
+  Coursework and independent exercises highlighting requirements interpretation, logical decomposition, and solution validation.
 
-## Skills Demonstrated
-- Object-oriented programming  
+## Core Competencies
+
+- Object-oriented design and implementation  
 - UML modeling and system documentation  
-- Requirements gathering and analysis  
-- Software design methodologies  
-- Web application concepts  
-- Version control with Git and GitHub  
+- Requirements analysis and traceability  
+- Structured testing and validation methodologies  
+- Web application fundamentals  
+- Version control using Git and GitHub  
 
-## Purpose of This Portfolio
-This repository serves as a growing record of my work as I progress through my software engineering career. More projects, refinements, and documentation will be added over time.
+## Portfolio Intent
 
----
-
-If you’re reviewing this portfolio and have any questions, feel free to reach out.
+This repository functions as an evolving record of technical growth and engineering discipline. Artifacts are curated to reflect analytical rigor, structured design thinking, and sustained attention to software quality attributes.
 
 ---
 ## CS 255 – DriverPass System Reflection
@@ -46,10 +45,10 @@ My approach to designing software is methodical: understand the problem, define 
 
 ## CS 320 – Software Testing & Automation Reflection
 
-This course strengthened my understanding that software quality is not accidental; it is engineered through deliberate verification and disciplined validation. In Project One, I developed unit tests using JUnit 5 to ensure that the Contact and ContactService classes adhered strictly to defined requirements. Each constraint—such as length limitations, null protection, and date validation—was treated as a non-negotiable rule. Rather than testing only expected inputs, I focused heavily on invalid paths and boundary conditions to confirm that improper data was rejected predictably and securely. Achieving strong code coverage was not simply about meeting a metric threshold; it was about ensuring that each logical branch was exercised and that defensive safeguards behaved as intended.
+This course strengthened my understanding that software quality is not accidental; it is engineered through deliberate verification and disciplined validation. In Project One, I developed unit tests using JUnit 5 to ensure that the Contact and ContactService classes adhered strictly to defined requirements. Each constraint—such as length limitations, null protection, and date validation—was treated as a non-negotiable constraint. Rather than testing only expected inputs, I focused heavily on invalid paths and boundary conditions to confirm that improper data was rejected predictably and securely. Achieving strong code coverage was not simply about meeting a metric threshold; it was about ensuring that each logical branch was exercised and that defensive safeguards behaved as intended.
 
 Interpreting user needs required translating abstract requirements into enforceable program rules. Clear specifications became concrete validation logic, and each requirement was mapped to at least one corresponding test case. This traceability ensured that functionality aligned with stakeholder expectations while reducing ambiguity during implementation. Through this process, I came to view testing not as a final checkpoint, but as an analytical framework that informs design decisions from the outset.
 
-My design approach has become increasingly methodical and risk-aware. I begin by analyzing constraints, identifying potential failure points, and structuring classes with separation of concerns in mind. Writing tests alongside implementation sharpened my attention to edge cases and reinforced the importance of maintainable, modular code. The discipline of structured testing, automated execution, and iterative refinement has reshaped how I evaluate software quality—prioritizing reliability, clarity, and long-term sustainability over superficial correctness.
+My design approach has become increasingly methodical and risk-aware. I begin by analyzing constraints, identifying potential failure points, and structuring classes with separation of concerns in mind. Writing tests alongside implementation sharpened my attention to edge cases and reinforced the importance of maintainable, modular code. The discipline of structured testing, automated execution, and iterative refinement has reshaped how I evaluate software quality—prioritizing reliability, clarity, and long-term maintainability over superficial correctness.
 
 ---
