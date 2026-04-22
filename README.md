@@ -52,3 +52,13 @@ Interpreting user needs required translating abstract requirements into enforcea
 My design approach has become increasingly methodical and risk-aware. I begin by analyzing constraints, identifying potential failure points, and structuring classes with separation of concerns in mind. Writing tests alongside implementation sharpened my attention to edge cases and reinforced the importance of maintainable, modular code. The discipline of structured testing, automated execution, and iterative refinement has reshaped how I evaluate software quality—prioritizing reliability, clarity, and long-term maintainability over superficial correctness.
 
 ---
+
+## CS 305 – Software Security Reflection
+
+This course focused on applying secure software development practices and understanding how vulnerabilities impact real-world systems. Through projects, I implemented HTTPS communication, generated SHA-256 hashes to verify data integrity, and used OWASP Dependency-Check to identify and analyze known vulnerabilities in project dependencies.
+
+One of the most important takeaways was recognizing that security must be built into software from the start rather than added later. I approached vulnerability analysis by identifying risks, evaluating their impact, and applying mitigation strategies such as dependency updates, secure configurations, and input validation.
+
+Refactoring the application to support HTTPS and secure hashing reinforced the importance of protecting data in transit and ensuring data integrity. Running dependency scans also highlighted how external libraries can introduce risk, even when the application code itself is correct.
+
+This experience strengthened my ability to think from a security-first perspective—considering potential attack surfaces, validating inputs, and ensuring that software remains both functional and resilient against threats.
